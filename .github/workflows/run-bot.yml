@@ -37,4 +37,4 @@ jobs:
           git config --global user.email "actions@github.com"
           git add immobiliare_annunci.csv
           git commit -m "Update CSV file with new listings"
-          git push https://$GITHUB_TOKEN@github.com/icyici/minscrapper.git main
+          git push https://x-access-token:$GITHUB_TOKEN@github.com/icyici/minscrapper.git main
