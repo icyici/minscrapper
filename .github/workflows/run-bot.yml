@@ -1,8 +1,7 @@
 name: Run Immobiliare Bot
 
 on:
-  schedule:
-    - cron: '* * * * *'  # Runs every hour at the 0th minute
+
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
